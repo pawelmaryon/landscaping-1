@@ -1,1 +1,11 @@
 @import "bootstrap/scss/bootstrap";
+
+//pages style sheets
+
+@import "pages/index.scss";
+
+
+.container {
+  height: 100vh;
+  background: rgb(220, 220, 220);
+}

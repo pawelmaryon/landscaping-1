@@ -10,4 +10,13 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def decking
+  end
+
+  def patio
+  end
+
+  def fence
+  end
 end
