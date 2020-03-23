@@ -19,4 +19,10 @@ class PagesController < ApplicationController
 
   def fence
   end
+
+  def new
+  end
+
+  def create
+  end
 end
