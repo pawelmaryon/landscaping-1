@@ -1,5 +1,43 @@
+.logo-container {
+  position: absolute;
+  
+}
+
 .navbar-box {
-  background: rgb(180, 180, 180);
+  background: rgb(82, 91, 86);;
   display: flex;
   justify-content: space-around;
+  .logo {
+    height: 70px;
+    
+  }
+  .box-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      .navbar-links {
+        color: rgb(191, 144, 100);
+        padding: 20px 25px;
+       
+        &:hover {
+          text-decoration: none;
+          color: rgb(164, 151, 142);
+          background:rgb(19, 34, 39);
+        }
+      }
+  }
+
+  .left-navbar-box {
+    width: 40%;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.3rem;
+
+  }
+  .right-navbar-box {
+    width: 40%;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.3rem;
+ 
+  }
+
 }

@@ -1,0 +1,27 @@
+.banner {
+  width: 100%;
+  height: 92.5vh;
+  background: rgb(220, 220, 220);
+  background-image: url(logo/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+    .banner-overlay {
+      background: rgba(0, 0, 0, 0.05);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        .quote-btn {
+          background: rgb(82, 91, 86);
+          padding: 15px 25px;
+          color: rgb(191, 144, 100);
+          border-radius: 7px;
+            &:hover {
+              text-decoration: none;
+              background: rgb(19, 34, 39);
+              color: rgb(82, 91, 86);
+            }
+        }
+    }
+}

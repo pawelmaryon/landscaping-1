@@ -1,10 +1,17 @@
 <div class="navbar-box">
-    <%= link_to 'Home', root_path %>
-    <%= link_to 'About', pages_about_path %>
-    <%= link_to 'Gallery', pages_gallery_path %>
-    <%= link_to 'Contact', pages_contact_path%>
-    <%= link_to 'Decking', pages_decking_path%>
-    <%= link_to 'Patio', pages_patio_path%>
-    <%= link_to 'Fence', pages_fence_path%>
-
+    <div class="left-navbar-box box-column">
+        <%= link_to 'Decking', pages_decking_path, class:"navbar-links"%>
+        <%= link_to 'Patio', pages_patio_path, class:"navbar-links"%>
+        <%= link_to 'Fence', pages_fence_path, class:"navbar-links"%>
+    </div>
+    <div class="logo-container">
+        <%= link_to root_path do%>
+        <%= image_tag  "logo/deckDesign-3.png" , class: "logo"%>
+        <%end%>
+    </div>
+    <div class="right-navbar-box box-column">
+        <%= link_to 'Gallery', pages_gallery_path, class:"navbar-links" %>
+        <%= link_to 'About', pages_about_path, class:"navbar-links" %>
+        <%= link_to 'Contact', pages_contact_path, class:"navbar-links"%>
+    </div>
 </div>
