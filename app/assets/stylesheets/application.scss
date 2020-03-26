@@ -1,9 +1,9 @@
+$text-color: rgb(191, 144, 100);
+$text-color-hover: rgb(164, 151, 142);
+$background-component: rgb(82, 91, 86);
+$background-component-hover: rgb(19, 34, 39);
 .maincolors {
   color: rgb(4, 12, 14);
-  color: rgb(19, 34, 39);
-  color: rgb(82, 91, 86);
-  color: rgb(191, 144, 100);
-  color: rgb(164, 151, 142);
 }
 
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
@@ -17,7 +17,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  background: rgb(191, 144, 100);
+  background: $text-color-hover;
 
 }
 
