@@ -12,6 +12,7 @@ class PagesController < ApplicationController
   end
 
   def decking
+    @deckings = [ 'Decking Design', 'Budget Decking', 'Softwood Decking', 'Hardwood Decking', 'Composite Decking']
   end
 
   def patio
