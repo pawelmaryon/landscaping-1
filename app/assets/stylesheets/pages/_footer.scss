@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  .social-media-box {
+    display: flex;
+    .social-media {
+      color: black;
+      font-size: 3rem;
+      list-style: none;
+      padding-left: 10px;
+    };
+  }
+}
