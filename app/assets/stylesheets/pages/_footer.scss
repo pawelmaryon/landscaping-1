@@ -1,5 +1,7 @@
 .footer {
   display: flex;
+  // background: $background-component;
+  z-index: 1;
   .social-media-box {
     display: flex;
     .social-media {
@@ -7,6 +9,17 @@
       font-size: 3rem;
       list-style: none;
       padding-left: 10px;
+   
     };
+    .facebook {
+      color: rgb(59, 89, 152);
+    }
+    .twitter {
+      color: rgb(28, 156, 235);
+    }
+    .instagram {
+      color: white;
+  
+    }
   }
 }
