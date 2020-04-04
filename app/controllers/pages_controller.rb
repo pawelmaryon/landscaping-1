@@ -12,7 +12,9 @@ class PagesController < ApplicationController
   end
 
   def decking
-    @deckings = [ 'Decking Design', 'Budget Decking', 'Softwood Decking', 'Hardwood Decking', 'Composite Decking']
+    @decking_types = Dir.chdir(Rails.root.join('app/assets/images')) do
+      Dir.glob("types/*.png")
+    end
   end
 
   def patio

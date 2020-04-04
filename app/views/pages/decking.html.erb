@@ -1,6 +1,8 @@
-            <ul>
-                <% @deckings.each do |decking| %>
-                    <li><%= decking %></li>
-                <% end %>
-              
-            </ul>
+            
+            <div class="decking-background-box">
+                <ul class="decking-types">
+                    <% @decking_types.each do |decking| %>
+                        <li class="decking-item"><%= image_tag decking %></li>
+                    <% end %>
+                </ul>
+            </div>
