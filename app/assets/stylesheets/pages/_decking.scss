@@ -1,0 +1,16 @@
+.decking-background-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .decking-types {
+    list-style: none;
+    height: 100px;
+    width: 100px;
+    .decking-items {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  
+
+}

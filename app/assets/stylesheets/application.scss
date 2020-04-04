@@ -12,6 +12,7 @@ $background-component-hover: rgb(19, 34, 39);
 //pages style sheets
 
 @import "pages/index.scss";
+@import "components/index.scss";
 
 body {
   padding: 0;
