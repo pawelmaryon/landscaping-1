@@ -3,22 +3,88 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  .budget-decking {
+  height: 91vh;
+  .decking-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
     width: 80%;
-    height: 100px;
-    background-image: url(logo/budget.png);
-    background-size: center/cover;
-    background-repeat: no-repeat;
-
-  }
-  .decking-types {
-    list-style: none;
-    height: 100px;
-    width: 100px;
-    .decking-items {
-      
+    background: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 7px;
+    
+    .budget-decking {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100%;
+      background-image: url(logo/budget-1.png);
+      object-fit: scale-down;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      color: $text-color;
+      background-position: center;
+      opacity: 0.8;
+      border-radius: 7px;
+    }
+    .softwood-decking {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100%;
+      background-image: url(logo/softwood.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      color: $text-color;
+      background-position: center;
+      opacity: 0.8;
+      border-radius: 7px;
+    }
+    .hardwood-decking {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100%;
+      background-image: url(logo/hardwood.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      color: $text-color;
+      background-position: center;
+      opacity: 0.8;
+      border-radius: 7px;
+    }
+    .composite-decking {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100%;
+      background-image: url(logo/composite.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: $text-color;
+      background-position: center;
+      opacity: 0.8;
+      border-radius: 7px;
     }
   }
-  
+}
 
+// IMAGE OVERLAY  
+.decking-items-overlay {
+  background: $background-component;
+  padding: 15px 25px;
+  color: $text-color;
+  border-radius: 7px;
+    &:hover {
+      text-decoration: none;
+      color: $text-color-hover;
+      background:$background-component-hover;
+    }
 }
