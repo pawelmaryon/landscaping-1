@@ -13,7 +13,7 @@ class PagesController < ApplicationController
 
   def decking
     @decking_types = Dir.chdir(Rails.root.join('app/assets/images')) do
-      Dir.glob("types/*.png")
+      Dir.glob("logo/*.png")
     end
   end
 
