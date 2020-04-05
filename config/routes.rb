@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'deckings/budget_decking'
+  get 'deckings/softwood_decking'
+  get 'deckings/hardwood_decking'
+  get 'deckings/composite_decking'
   root 'pages#home'
   get 'pages/about'
   get 'pages/gallery'
